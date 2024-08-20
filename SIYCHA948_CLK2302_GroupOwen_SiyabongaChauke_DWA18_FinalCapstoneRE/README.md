@@ -13,4 +13,4 @@ This is a podcast project which will allow users to browse various podcast shows
 
 ### Website link:
 
-[PodCast APP](https://deluxe-florentine-8fa394.netlify.app/)
+[PodCast](https://deluxe-florentine-8fa394.netlify.app/)

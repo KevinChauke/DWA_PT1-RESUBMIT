@@ -1,7 +1,7 @@
 import React from "react";
 
 const SearchBar = ({ openSearchHandler, searchBar }) => {
-    const seacrh = (event) => {
+    const search = (event) => {
         event.preventDefault();
         console.log(event.target.value);
     };
@@ -9,7 +9,7 @@ const SearchBar = ({ openSearchHandler, searchBar }) => {
         <div className="search-bar">
             <input
                 className="title-search-input"
-                onChange={seacrh}
+                onChange={search}
                 type="text"
             />
             <button onClick={openSearchHandler}>

@@ -5,7 +5,7 @@ const BrandName = () => {
     return (
         <Link to="/">
             <h1 className="app-name">
-                PodCast<span>APP</span>
+                Pod<span>Cast</span>
             </h1>
         </Link>
     );
