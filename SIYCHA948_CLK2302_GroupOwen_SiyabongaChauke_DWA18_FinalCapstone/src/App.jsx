@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout.jsx";
 import Home from "./pages/Home.jsx";
-import Login from "./pages/Login.jsx";
 import Show from "./pages/Show.jsx";
 import Favorites from "./pages/Favorites.jsx";
 
@@ -31,8 +30,7 @@ function App() {
                         path="show/:id"
                         element={<Show playEpHandler={playEp} />}
                     />
-                    <Route path="login" element={<Login />} />
-                    <Route path="favorites" element={<Favorites />} />
+                    
                 </Route>
             </Routes>
         </BrowserRouter>
