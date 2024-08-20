@@ -37,7 +37,6 @@ const AudioPlayer = (props) => {
                     </button>
                     <audio
                         controls
-                        // ref={audioPlayer}
                         autoPlay
                         src={state.episode.file}
                         preload="metadata"
