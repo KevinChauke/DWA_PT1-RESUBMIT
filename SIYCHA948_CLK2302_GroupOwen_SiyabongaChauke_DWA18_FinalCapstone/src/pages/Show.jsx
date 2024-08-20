@@ -1,11 +1,12 @@
 import React from "react";
 import Season from "../components/Season.jsx";
 import SeasonDisplay from "../components/SeasonDisplay.jsx";
+import { useLocation } from 'react-router-dom';
 const SHOW_API = "https://podcast-api.netlify.app/id/";
 
 const Show = (props) => {
     const { playEpHandler } = props;
-    const location = useLocation();
+    const location = useLocation();   // The useLocation hook returns the location object from the current URL
     const ID = location.state.id;
 
     const [state, setState] = React.useState({
