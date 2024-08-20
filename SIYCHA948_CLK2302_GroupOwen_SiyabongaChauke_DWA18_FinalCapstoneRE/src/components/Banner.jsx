@@ -17,25 +17,24 @@ const Banner = () => {
             setTimeOfDay("morning");
         } else if (hours >= 12 && hours < 18) {
             setTimeOfDay("afternoon");
-        } else if (hours >= 18 && hours < 20) {
-            setTimeOfDay("evening");
         } else {
-            setTimeOfDay("night");
+            setTimeOfDay("evening");
         }
-    }, []);
+    },
+    
+);
 
     //  This will be displayed during the time a user accesses the website
     return (
         <section className="banner">
             <small className="greeting">Good {timeOfDay},</small>
             <div className="account--user">
-                <h2 className="user">Guest</h2>
+                <h2 className="user">Welcome To Podcast</h2>
 
-                <Link to="login">
-                    <button>Login/Register</button>
-                </Link>
                 
             </div>
+
+            
             <small className="notify">
                 Create an account by signing up.
             </small>

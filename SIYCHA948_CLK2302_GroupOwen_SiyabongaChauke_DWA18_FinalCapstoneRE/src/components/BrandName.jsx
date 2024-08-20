@@ -8,6 +8,8 @@ const BrandName = () => {
                 Pod<span>Cast</span>
             </h1>
         </Link>
+
+                       
     );
 };
 
