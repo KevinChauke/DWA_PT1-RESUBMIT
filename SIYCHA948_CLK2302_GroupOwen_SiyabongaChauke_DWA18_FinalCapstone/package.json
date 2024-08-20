@@ -28,17 +28,6 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "react-router-dom": "^6.14.2",
     "vite": "^4.4.5"
-  },
-  "description": "This project is a podcast app that allows users to browse various podcast shows, play episodes, and track their favorite episodes.",
-  "main": "main.jsx",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jarreedd/JARWIL102_FTC2301_ftcNwabisaGroup_JarreedWilliams_Podcast.git"
-  },
-  "author": "Jarreed Williams",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jarreedd/JARWIL102_FTC2301_ftcNwabisaGroup_JarreedWilliams_Podcast/issues"
-  },
-  "homepage": "https://github.com/jarreedd/JARWIL102_FTC2301_ftcNwabisaGroup_JarreedWilliams_Podcast#readme"
+  }
+
 }
