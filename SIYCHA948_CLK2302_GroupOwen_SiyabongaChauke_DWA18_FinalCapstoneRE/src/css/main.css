@@ -180,7 +180,7 @@
 .banner {
   width: 100%;
   height: max-content;
-  background-color: #0e66f4;
+  background-color: #678ecc;
   padding: 10px 20px;
   display: flex;
   flex-direction: column; }
@@ -208,7 +208,7 @@
     .banner .account--user button {
       height: 24px;
       color: #fafafa;
-      background-color: #2a623d;
+      background-color: #678ecc;
       border: none;
       border-radius: 5px; }
 
@@ -220,7 +220,7 @@
   position: sticky;
   top: 50px;
   z-index: 1;
-  background-color: #fafafa;
+  background-color: #cccccc;
   margin: 10px 20px 5px 0; }
 
   .browse--filters .filter--form {
@@ -260,16 +260,16 @@
 
           .browse--filters .filter--form .sort-btn-container .sort-list .sort-btn.active {
             color: #fafafa;
-            background-color: #2a623d; }
+            background-color: #0b5cdf; }
 
           .browse--filters .filter--form .sort-btn-container .sort-list .sort-btn:hover {
-            background-color: #2a8539; }
+            background-color: #7695c7; }
 
     .browse--filters .filter--form .filters--btn, .browse--filters .filter--form .filter-btns button {
       height: 25px;
       padding: 0px 5px;
       color: #fafafa;
-      background-color: #2a623d;
+      background-color: #0b5cdf;
       border: none;
       border-radius: 5px;
       user-select: none;
@@ -282,7 +282,7 @@
       height: max-content;
       border-radius: 10px;
       border: none;
-      background-color: #fafafa;
+      background-color: #96a1a2;
       z-index: 3; }
 
       .browse--filters .filter--form .filter--dialog h3 {
@@ -370,7 +370,7 @@
       font-size: 24px; }
 
     .season-dialog .back-to-season:hover {
-      background-color: #2a8539; }
+      background-color: #0b5cdf; }
 
       .season-dialog .back-to-season:hover ion-icon {
         color: #fafafa; }
@@ -381,7 +381,7 @@
     padding: 10px 0; }
 
     .season-dialog .seasons .prev-season, .season-dialog .seasons .next-season {
-      background-color: #2a623d;
+      background-color: #0b5cdf;
       height: 65px;
       width: 40px;
       display: flex;
@@ -460,7 +460,7 @@
   bottom: 0;
   z-index: 2;
   width: 100%;
-  background-color: #2a623d;
+  background-color: #cccccc;
   padding: 10px;
   border-radius: 25px;
   display: flex; } 
@@ -490,7 +490,7 @@ html, body {
 
 @keyframes slidein-right {
     0% {
-        transform: translateX(100%);
+        transform: translateX(1050%);
     }
     100% {
         transform: translateX(0);
@@ -500,15 +500,15 @@ html, body {
 h1 {
   margin: 0px;
   font-weight: 800;
-  font-size: 26px;
-  color: #0e66f4;
-  animation: 5s slidein-right;
+  font-size: 35px;
+  color: #0b5cdf;
+  animation: 20s slidein-right;
 }
 
 .header {
   width: 100vw;
   height: 50px;
-  background-color: #96a1a2;
+  background-color: #cccccc;
   padding: 0 20px;
   padding-left: 60px;
   z-index: 1;
@@ -526,7 +526,7 @@ h1 {
   justify-content: right;
   padding: 20px;
   margin-top: 1px;
-  background-color: #96a1a2;
+  background-color: #cccccc;
   position: sticky;
   top: 0; }
 
@@ -551,7 +551,7 @@ h1 {
 
 ion-icon {
   font-size: 26px;
-  color: #2a623d; }
+  color: #0b5cdf; }
 
 .overlay {
   position: fixed;
