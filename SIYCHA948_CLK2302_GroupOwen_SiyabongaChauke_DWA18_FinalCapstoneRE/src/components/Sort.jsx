@@ -67,7 +67,7 @@ const Sort = ({ title, sortHandler, filterHandler }) => {
                         name="close-outline"
                         onClick={() => setFilterOpen((prev) => !prev)}
                     ></ion-icon>
-                    <h3>These are the available genres:</h3>
+                    <h3>Genres:</h3>
                     <div className="filter-btns" onClick={activeFilter}>
                         {GENRES.map((item, index) => (
                             <button
