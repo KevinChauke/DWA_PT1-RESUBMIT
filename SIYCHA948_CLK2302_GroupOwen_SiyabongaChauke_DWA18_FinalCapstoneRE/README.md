@@ -4,10 +4,6 @@
 
 This is a podcast project which will allow users to browse various podcast shows, play episodes, and track their favorite episodes.
 
-### Netlify link:
-
-[PodCast](https://deluxe-florentine-8fa394.netlify.app/)
-
 
 ### User Stories
 ✅ Project is deployed to a custom Netlify URL
