@@ -11,7 +11,7 @@ const Banner = () => {
     It returns an array with two values: the current state and a function to update it
 */
 
-// Arrow function for the date to display during the time a user accesses the website
+// Arrow function for the time of to display during the time a user accesses the website
     React.useEffect(() => {
         if (hours > 4 && hours < 12) {
             setTimeOfDay("morning");
@@ -36,7 +36,7 @@ const Banner = () => {
 
             
             <small className="notify">
-                Create an account by signing up.
+                Sign up to access your favorite shows.
             </small>
         </section>
     );

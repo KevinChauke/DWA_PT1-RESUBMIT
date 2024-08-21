@@ -17,7 +17,7 @@ const Menu = () => {
                         <div className="account--user">
                             <h2 className="user">
                                 <ion-icon name="person-circle-outline"></ion-icon>
-                                Guest
+                                Welcome
                             </h2>
                             <Link to="login">
                                 <button className="li--btn">
@@ -30,19 +30,15 @@ const Menu = () => {
                             Create an account by signing up.
                         </p>
                     </li>
-                    <li className="nav-item">
-                        <ion-icon name="sunny-outline"></ion-icon>
-                        <h4>Appearence</h4>
-                    </li>
+                   
                     <li>
                         <Link to="/favorites" className="nav-item">
                             <ion-icon name="bookmark-outline"></ion-icon>
-                            <h4>Favirotes</h4>
+                            <h4>Favorites</h4>
                         </Link>
                     </li>
                 </ul>
             </nav>
-            {/* <div className={showMore ? "overlay show" : "overlay"}></div> */}
         </>
     );
 };

@@ -180,14 +180,14 @@
 .banner {
   width: 100%;
   height: max-content;
-  background-color: #cccccc;
+  background-color: #0e66f4;
   padding: 10px 20px;
   display: flex;
   flex-direction: column; }
 
   .banner .greeting {
     font-size: 14px;
-    color: #fafafa;
+    color: #000000;
     font-style: italic;
     font-weight: 400; }
 
@@ -484,21 +484,31 @@ html, body {
   background-color: #fafafa; }
 
   html::-webkit-scrollbar, body::-webkit-scrollbar {
-    width: 0; }
+    width: 0; 
+  }
+
+
+@keyframes slidein-right {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
 
 h1 {
   margin: 0px;
-  font-weight: 600;
-  font-size: 26px; }
-
-span {
   font-weight: 800;
-  color: #2a8539; }
+  font-size: 26px;
+  color: #0e66f4;
+  animation: 5s slidein-right;
+}
 
 .header {
   width: 100vw;
   height: 50px;
-  background-color: #fafafa;
+  background-color: #96a1a2;
   padding: 0 20px;
   padding-left: 60px;
   z-index: 1;
@@ -512,11 +522,11 @@ span {
   height: 50px;
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
   padding: 20px;
   margin-top: 1px;
-  background-color: #fafafa;
+  background-color: #96a1a2;
   position: sticky;
   top: 0; }
 
