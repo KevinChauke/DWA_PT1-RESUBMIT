@@ -21,5 +21,7 @@ This is a podcast project which will allow users to browse various podcast shows
 ✅ User can filter shows by genre.
 ✅ Audio player shows current progress and episode length as timestamps
 ✅ Audio player is always visible, so the user can listen to episodes while they browse shows.
-
-
+✅ All views in the app display correctly on the smallest mobile device available, “iPhone SE”. This can be emulated in Chrome Dev tools.
+✅ When viewing a specific show, data is loaded via fetch from individual show endpoint
+✅ User can toggle between different seasons for the same show
+✅ User can see a view where only episodes for a specifically selected season are shown

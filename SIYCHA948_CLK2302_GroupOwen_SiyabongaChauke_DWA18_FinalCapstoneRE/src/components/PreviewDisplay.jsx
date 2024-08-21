@@ -85,7 +85,7 @@ const PreviewDisplay = ({ title, size }) => {
     const addTitle =
         title === "Browse" ? (
             <Sort
-                title="Browse"
+                title="Browse Shows:" 
                 sortHandler={sortShows}
                 filterHandler={filterShows}
             />

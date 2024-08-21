@@ -59,7 +59,7 @@ const Sort = ({ title, sortHandler, filterHandler }) => {
                     type="button"
                     onClick={() => setFilterOpen((prev) => !prev)}
                 >
-                    filters
+                    Filter with genre
                 </button>
 
                 <dialog className="filter--dialog" open={filterOpen}>
